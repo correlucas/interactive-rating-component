@@ -53,11 +53,13 @@ button {
 }
 
 :root {
-  --black: hsla(240, 100%, 5%, 1);
-  --gray: hsla(233, 8%, 79%, 1);
-  --dark-gray: hsla(236, 13%, 42%, 1);
-  --yellow: hsla(35, 77%, 62%, 1);
-  --orange: hsla(5, 85%, 63%, 1);
+  --green: hsla(151, 100%, 45%, 1);
+  --black: hsla(216, 12%, 8%, 1);
+  --dark-gray: hsla(213, 19%, 18%, 1);
+  --lt-gray: hsla(216, 12%, 54%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+  --g1: hsla(218, 21%, 15%, 1);
+  --g2: hsla(155, 25%, 12%, 1);
 }
 
 body {

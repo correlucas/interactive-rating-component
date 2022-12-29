@@ -137,16 +137,20 @@ ul {
 }
 
 /* output */
-/* .input {
+.hidden {
   display: none;
-} */
+}
 
 .output {
-  display: none;
-  /* display: flex; */
+
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.output img {
+  display: block;
+  margin: 0 auto;
 }
 
 .output-rating {
@@ -160,4 +164,16 @@ ul {
 
 .output p {
   max-width: 340px;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  font: 700 16px/19px 'Overpass', sans-serif;
+  text-transform: uppercase;
+  background: var(--gradient-btn);
+  color: var(--white);
+  text-align: center;
+  padding: 12px;
+  border-radius: 50px;
 }

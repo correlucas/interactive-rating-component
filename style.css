@@ -135,8 +135,6 @@ ul {
 }
 
 .btn-submit {
-  display: block;
-  width: 100%;
   font: 700 16px/16px 'Overpass', sans-serif;
   text-transform: uppercase;
   background: var(--gradient-btn);

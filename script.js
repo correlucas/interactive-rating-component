@@ -29,3 +29,5 @@ ratingNum.forEach((rateNum) => {
 
 // Here we're created two variables, rating that select the number that will be displayed as the rating (the number selected by the user) and the variable ratingNum that will trigger the action with the eventlistener click.
 
+// When its add that the rating.innerHTML is equal to the ratingNum this means that the text will be override with the the text input from the Button.
+

@@ -122,7 +122,8 @@ ul {
   transition: 0.3s ease-in;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: var(--green);
   color: var(--white);
   transition: 0.3s ease-in;

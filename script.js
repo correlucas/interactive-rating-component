@@ -1,5 +1,4 @@
 const input = document.querySelector('.input');
-
 const output = document.querySelector('.output');
 
 const submitButton = document.getElementById('submit');
@@ -18,4 +17,15 @@ submitAgainButton.addEventListener('click', () => {
 });
 
 // Here the opposite action happens with the submitAgainButton
+
+const rating = document.getElementById('ratingOutput');
+const ratingNum = document.querySelectorAll('.btn');
+
+ratingNum.forEach((rateNum) => {
+  rateNum.addEventListener('click', () => {
+    rating.innerHTML = rateNum.innerHTML;
+  })
+})
+
+// Here we're created two variables, rating that select the number that will be displayed as the rating (the number selected by the user) and the variable ratingNum that will trigger the action with the eventlistener click.
 

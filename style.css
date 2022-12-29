@@ -119,6 +119,13 @@ ul {
   color: var(--green);
   background-color: var(--dark-gray);
   border-radius: 500px;
+  transition: 0.3s ease-in;
+}
+
+.btn:hover {
+  background-color: var(--green);
+  color: var(--white);
+  transition: 0.3s ease-in;
 }
 
 .btn-flex {
@@ -127,13 +134,21 @@ ul {
 }
 
 .btn-submit {
-  font: 700 16px/19px 'Overpass', sans-serif;
+  display: block;
+  width: 100%;
+  font: 700 16px/16px 'Overpass', sans-serif;
   text-transform: uppercase;
   background: var(--gradient-btn);
   color: var(--white);
+  border: 1px solid var(--green);
   text-align: center;
   padding: 12px;
   border-radius: 50px;
+}
+
+.btn-submit:hover {
+  background: var(--dark-gray);
+  transition: 0.3s ease-in;
 }
 
 /* output */
@@ -164,16 +179,4 @@ ul {
 
 .output p {
   max-width: 340px;
-}
-
-.btn-submit {
-  display: block;
-  width: 100%;
-  font: 700 16px/19px 'Overpass', sans-serif;
-  text-transform: uppercase;
-  background: var(--gradient-btn);
-  color: var(--white);
-  text-align: center;
-  padding: 12px;
-  border-radius: 50px;
 }

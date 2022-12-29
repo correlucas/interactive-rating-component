@@ -53,12 +53,13 @@ button {
 }
 
 :root {
-  --green: hsla(151, 100%, 45%, 1);
+  --green: hsla(161, 100%, 44%, 1);
   --black: hsla(216, 12%, 8%, 1);
   --dark-gray: hsla(213, 19%, 18%, 1);
   --lt-gray: hsla(216, 12%, 54%, 1);
   --white: hsla(0, 0%, 100%, 1);
-  --gradient: linear-gradient(135.77deg, #181F27 1.08%, #1B252A 72.32%, #074331 121.07%);
+  --gradient: linear-gradient(135.77deg, #181F27 1.08%, #1B252A 75%, #074331 150%);
+  --gradient-btn: linear-gradient(90.73deg, #00E376 0.34%, #00DDAB 100%);
 }
 
 body {
@@ -74,19 +75,23 @@ body {
   min-height: 100vh;
 }
 
+/* input  */
+
 main {
   max-width: 412px;
   background: var(--gradient);
   padding: 32px;
   border-radius: 15px 120px 15px 15px;
-  box-shadow: 8px 8px 148px 15px rgb(3 32 18 / 20%);
+  box-shadow: 90px 120px 135px 15px rgba(0, 113, 59, 0.1);
+  margin: 20px;
 }
 
-.star {
+img {
   padding-bottom: 30px;
 }
 
-h1 {
+h1,
+h2 {
   font: 700 28px/35px 'Overpass', sans-serif;
   padding-bottom: 15px;
   color: var(--white);
@@ -123,9 +128,36 @@ ul {
 
 .btn-submit {
   font: 700 16px/19px 'Overpass', sans-serif;
-  background-color: var(--green);
+  text-transform: uppercase;
+  background: var(--gradient-btn);
   color: var(--white);
   text-align: center;
   padding: 12px;
   border-radius: 50px;
+}
+
+/* output */
+/* .input {
+  display: none;
+} */
+
+.output {
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.output-rating {
+  font: 400 15px/15px 'Overpass', sans-serif;
+  padding: 12px 20px;
+  margin-bottom: 29px;
+  background-color: var(--dark-gray);
+  color: var(--green);
+  border-radius: 100px;
+}
+
+.output p {
+  max-width: 340px;
 }

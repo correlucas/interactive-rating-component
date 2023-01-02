@@ -22,7 +22,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ### Links
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/art-gallery-website-vanilla-css-custom-animations-and-hover-effects-dLv-qOWmK2)
-- Live Site URL: [Live Site at Vercel](https://interactive-rating-component-seven-rouge.vercel.app/)
+- Live Site URL: [Live Site at Vercel](https://interactive-rating-component-onfvvxnbg-correlucas.vercel.app/)
 ## My process
 
 ### Built with
@@ -36,7 +36,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### What I learned
 
-This challenge was quite hard, was my first real Javascript challenge ever. I took a lots of time trying to find out how to make the rating buttons connect to the submit button to display the output popup showing the selected number. I had look several challenges to undestand the JS structure so I follow a video from this channel in youtube [TsbSankara - JavaScript - Interactive Rating Component](https://www.youtube.com/watch?v=cQnUopEeZgw). Once I did the basic challenge I created a modal screen to request the user to select a button before submit, for the second step I had to ask a friend (@adrianoescarabote) for help and after some explanations I get it. 
+This challenge was quite hard, was my first real Javascript challenge ever. I took a lots of time trying to find out how to make the rating buttons connect to the submit button to display the output popup showing the selected number. I had look several challenges to understand the JS structure so I follow a video from this channel in youtube [TsbSankara - JavaScript - Interactive Rating Component](https://www.youtube.com/watch?v=cQnUopEeZgw). Once I did the basic challenge I created a modal screen to request the user to select a button before submit, for the second step I had to ask a friend (@adrianoescarabote) for help and after some explanations I get it. 
 
 ### Useful resources
 

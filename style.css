@@ -253,6 +253,17 @@ ul {
   max-width: 48px;
 }
 
+@media (max-width: 375px) {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 32px;
+    justify-content: center;
+  }
+}
+
+
 /* animations  */
 #modal {
   transition: ease-in 0.5s;

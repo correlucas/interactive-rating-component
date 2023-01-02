@@ -27,6 +27,10 @@ ratingNum.forEach((rateNum) => {
   })
 })
 
+if (ratingNum.innerHTML === "") {
+  document.getElementById('modal').style.display = 'flex';
+}
+
 // Here we're created two variables, rating that select the number that will be displayed as the rating (the number selected by the user) and the variable ratingNum that will trigger the action with the eventlistener click.
 
 // When its add that the rating.innerHTML is equal to the ratingNum this means that the text will be override with the the text input from the Button.
@@ -40,10 +44,6 @@ close.addEventListener('click', () => {
   document.getElementById('modal').style.display = 'none';
   // input.classList.add('blur');
 });
-
-if (document.querySelectorAll('btn') !== document.focusedElement) {
-  document.getElementById('modal').style.display = 'flex';
-}
 
 
 window.addEventListener('click', (event) => {

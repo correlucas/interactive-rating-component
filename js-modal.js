@@ -11,6 +11,12 @@ open.addEventListener('click', () => {
   document.getElementById('modal').style.display = 'flex';
 });
 
+window.addEventListener('click', (event) => {
+  if (event.target == modal) {
+    document.getElementById('modal').style.display = 'none';
+  }
+});
+
 
 
 

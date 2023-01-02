@@ -140,14 +140,14 @@ ul {
   color: var(--green);
   background-color: var(--dark-gray);
   border-radius: 500px;
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .btn:hover,
 .btn:focus {
   background-color: var(--green);
   color: var(--white);
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .btn-flex {
@@ -170,7 +170,7 @@ ul {
 
 .btn-submit:hover {
   background: var(--dark-gray);
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 
 /* output */
@@ -179,7 +179,6 @@ ul {
 }
 
 .output {
-
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -206,17 +205,19 @@ ul {
 /* modal  */
 
 #modal {
-  display: none;
+  display: flex;
   height: 100vh;
   width: 100vw;
   position: absolute;
-  background: hsla(216, 12%, 8%, 0.8);
+  background: hsla(216, 12%, 8%, 0.95);
   align-items: center;
   justify-content: center;
+  z-index: 500;
 }
 
 .blur {
-  filter: blur(500px);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
 }
 
 .modal-content {
@@ -229,7 +230,7 @@ ul {
   background: var(--gradient-btn);
   text-align: center;
   flex-direction: column;
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .btn-modal {
@@ -242,7 +243,7 @@ ul {
   text-align: center;
   padding: 12px;
   border-radius: 50px;
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .btn-modal:hover {

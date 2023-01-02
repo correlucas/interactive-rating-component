@@ -31,3 +31,24 @@ ratingNum.forEach((rateNum) => {
 
 // When its add that the rating.innerHTML is equal to the ratingNum this means that the text will be override with the the text input from the Button.
 
+// --
+
+const close = document.getElementById('closeModal');
+const modal = document.getElementById('modal');
+
+close.addEventListener('click', () => {
+  document.getElementById('modal').style.display = 'none';
+  // input.classList.add('blur');
+});
+
+if (document.querySelectorAll('btn') !== document.focusedElement) {
+  document.getElementById('modal').style.display = 'flex';
+}
+
+
+window.addEventListener('click', (event) => {
+  if (event.target == modal) {
+    document.getElementById('modal').style.display = 'none';
+  }
+});
+

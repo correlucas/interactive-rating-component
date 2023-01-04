@@ -24,11 +24,11 @@ outputButton.forEach((btn) => {
 });
 
 // reset form default
-form.addEventListener("submit", (ev) => {
-  ev.preventDefault()
-  output.classList.remove('hidden');
-  input.classList.add('hidden');
-})
+// form.addEventListener("submit", (ev) => {
+//   ev.preventDefault()
+//   output.classList.remove('hidden');
+//   input.classList.add('hidden');
+// })
 
 // comeback to the first form with RATE AGAIN 
 submitAgainButton.addEventListener('click', () => {

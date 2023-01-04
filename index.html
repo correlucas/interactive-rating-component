@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <article id="modal">
+  <!-- <div id="modal">
     <div class="modal-content">
       <img src="./images/icon-star.svg" alt="Star Icon">
       <h2> Please give us feedback before submitting ✌</h3>
@@ -22,28 +22,40 @@
           <button class="btn-modal" id="closeModal">Close</button>
         </div>
     </div>
-  </article>
+  </div> -->
 
   <main>
-    <article class="input" id="input">
+    <div class="card-front" id="input">
       <img src="./images/icon-star.svg" alt="Star Icon">
       <h1>How did we do?</h1>
       <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
+      <form id="form" class="form" novalidate>
+        <fieldset class="inputs btn-radio">
 
-      <div class="btn-flex">
-        <ul>
-          <li><button class="btn">1</button></li>
-          <li><button class="btn">2</button></li>
-          <li><button class="btn">3</button></li>
-          <li><button class="btn">4</button></li>
-          <li><button class="btn">5</button></li>
-        </ul>
-        <button class="btn-submit" id="submit">Submit</button>
-      </div>
-    </article>
+          <input id="one" class="radio" type="radio" name="rating" value="1">
+          <label for="one" class="btn">1</label>
 
-    <article class="output hidden" id="output">
+          <input id="two" class="radio" type="radio" name="rating" value="2">
+          <label for="two" class="btn">2</label>
+
+          <input id="three" class="radio" type="radio" name="rating" value="3">
+          <label for="three" class="btn">3</label>
+
+          <input id="four" class="radio" type="radio" name="rating" value="4">
+          <label for="four" class="btn">4</label>
+
+          <input id="five" class="radio" type="radio" name="rating" value="5">
+          <label for="five" class="btn">5</label>
+        </fieldset>
+
+        <div class="btn-flex">
+          <button type="submit" id="submitBtn" class="btn-submit">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="card-back" id="output">
       <img class="output-image" src="./images/illustration-thank-you.svg" alt="">
       <p class="output-rating">You selected <span id="ratingOutput"></span> out of 5</p>
 
@@ -53,7 +65,8 @@
       <div class="btn-flex">
         <button class="btn-submit" id="submit-again">Rate Again</button>
       </div>
-    </article>
+    </div>
+
   </main>
 
   <script src="script.js"></script>

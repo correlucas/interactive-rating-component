@@ -23,13 +23,10 @@ outputButton.forEach((btn) => {
   });
 });
 
-// open modal 
-
-
 // reset form default
 form.addEventListener("submit", (ev) => {
   ev.preventDefault()
-  // output.classList.remove('hidden');
+  output.classList.remove('hidden');
   input.classList.add('hidden');
 })
 

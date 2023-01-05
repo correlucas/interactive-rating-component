@@ -112,6 +112,15 @@ body {
   margin: 20px;
 }
 
+.card-back {
+  text-align: center;
+}
+
+.card-back img {
+  display: block;
+  margin: 0 auto;
+}
+
 img {
   padding-bottom: 30px;
 }
@@ -225,12 +234,6 @@ fieldset {
   transition: all ease-in 0.3s;
   transform: translateX(-500px);
 }
-
-/* .card-back {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-} */
 
 .output img {
   display: block;

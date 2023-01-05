@@ -32,7 +32,7 @@
 
       <form id="form" class="form" novalidate>
         <fieldset class="inputs btn-radio">
-
+          <legend class="sr-only">Rate our service</legend>
           <input id="one" class="radio" type="radio" name="rating" value="1">
           <label for="one" class="btn">1</label>
 
@@ -55,7 +55,8 @@
       </form>
     </div>
 
-    <div class="card-back hidden" id="output">
+    <div class="card-back center hidden" id="output">
+      <div class="sr-only">thank you for the valuable feedback</div>
       <img class="output-image" src="./images/illustration-thank-you.svg" alt="">
 
       <p class="output-rating">You selected <span id="ratingOutput"></span> out of 5</p>

@@ -34,7 +34,7 @@ outputButton.forEach((btn) => {
 submitAgainButton.addEventListener('click', () => {
   output.classList.add('hidden');
   input.classList.remove('hidden');
-  rating.innerHTML = "";
+  btn.checked = false;
 });
 
 // close modal
